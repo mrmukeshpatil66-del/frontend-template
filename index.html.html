@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fitness & Gym Equipment Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@500;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* GLOBAL */
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f6f8;
+        }
+
+        /* HEADER */
+        header {
+            background-color: #0b1c2d;
+            color: white;
+            padding: 25px;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+        }
+
+        /* HERO */
+        .hero img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        /* PRODUCTS SECTION */
+        .products {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .products h2 {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 30px;
+            color: #0b1c2d;
+            margin-bottom: 25px;
+        }
+
+        .product-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .card {
+            background-color: white;
+            width: 280px;
+            border-radius: 10px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.15);
+            padding: 15px;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .card h3 {
+            font-family: 'Montserrat', sans-serif;
+            margin: 10px 0 5px;
+        }
+
+        .card p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+        }
+
+        .price {
+            color: #d62828;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #0b1c2d;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Fitness & Gym Equipment Store</h1>
+        <p>Build Your Strength. Boost Your Performance 💪</p>
+    </header>
+
+    <!-- HERO IMAGE -->
+    <section class="hero">
+        <img src="treadmill.jpeg" alt="Gym Equipment">
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="products">
+        <h2>Our Top Products</h2>
+
+        <div class="product-container">
+
+            <div class="card">
+                <img src="assets/images/dumbbell.jpg" alt="Dumbbells">
+                <h3>Adjustable Dumbbells</h3>
+                <p>Ideal for strength training at home.</p>
+                <p class="price">₹2,999</p>
+            </div>
+
+            <div class="card">
+                <img src="assets/images/yoga-mat.jpg" alt="Yoga Mat">
+                <h3>Premium Yoga Mat</h3>
+                <p>Non-slip & extra comfort for workouts.</p>
+                <p class="price">₹1,499</p>
+            </div>
+
+            <div class="card">
+                <img src="assets/images/protein.jpg" alt="Protein Shaker">
+                <h3>Protein Shaker Bottle</h3>
+                <p>Durable & leak-proof shaker.</p>
+                <p class="price">₹799</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Fitness & Gym Equipment Store | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
